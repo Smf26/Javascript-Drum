@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #787c65;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10vh auto 8vh;
+      grid-template-rows: 10vh auto 8vh;
+  gap: 2px;
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #B3C0A4;
+  display: inherit;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div > h1 {
+  color: rgba(25, 39, 38, 0.486);
+}
+
+main {
+  background-color: #787c65;
+  display: inherit;
+  gap: 2px;
+  justify-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+main #display {
+  display: inherit;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+  border: 0.2em solid #B3C0A4;
+  border-radius: 1em;
+  padding: 4px;
+  width: 85%;
+  height: 12vh;
+}
+
+main #display div {
+  border-radius: 4px;
+}
+
+main #display #screen {
+  display: inherit;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(25, 39, 38, 0.486);
+}
+
+main #display .record {
+  display: inherit;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #display .record div {
+  border-radius: 1em;
+}
+
+main #display .play {
+  display: inherit;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #display .play div {
+  border-radius: 1em;
+}
+
+main .wrap {
+  display: inherit;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 4px;
+  padding: 10px;
+}
+
+main .wrap button {
+  width: 25vw;
+  height: 10vh;
+  background-color: rgba(224, 206, 164, 0.479);
+  border-radius: 5px;
+}
+
+main button.active {
+  background-color: #787c65;
+  border: 0.2em solid rgba(224, 206, 164, 0.479);
+  outline-style: none;
+}
+
+footer {
+  background-color: #B3C0A4;
+  display: inherit;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  bottom: 0;
+}
+
+footer div > p {
+  color: rgba(25, 39, 38, 0.486);
+}
+/*# sourceMappingURL=style.css.map */

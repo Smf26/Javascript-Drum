@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <title>Drum Machine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div><h1>Drum Machine</h1></div>
+  </header> 
+  <!-- ============================= -->
+  <main id="drum-machine">
+
+    <div id="display">
+      <div class="display play">
+        <div></div>
+      </div>
+      <div id="screen" class="display"><h5 id="drumPadType"></h5></div>
+      <div class="display record">
+        <div></div>
+      </div>
+    </div>
+    <!-- --------------------------- -->
+    <div class="wrap">
+    <button data-note="Q" id="drum" class="drum-pad">Q</button>
+    <!-- ........................... -->
+    <button id="kick" class="drum-pad" data-note="W">W</button>
+    <!-- ........................... -->
+    <button id="hihat" class="drum-pad" data-note="E">E</button>
+    <!-- ........................... -->
+    <button id="clap" class="drum-pad" data-note="A">A</button>
+    <!-- ........................... -->
+    <button id="crash" class="drum-pad" data-note="S">S</button>
+    <!-- ........................... -->
+    <button id="rim" class="drum-pad" data-note="D">D</button>
+    <!-- ........................... -->
+    <button id="percussion" class="drum-pad" data-note="Z">Z</button>
+    <!-- ........................... -->
+    <button id="shaker" class="drum-pad" data-note="X">X</button>
+    <!-- ........................... -->
+    <button id="tom" class="drum-pad" data-note="C">C</button>
+    </div>
+    <!-- --------------------------- -->
+    <audio id="Q" src="./Drum soundsmp3/Kick7.mp3"></audio>
+    <audio id="W" src="./Drum soundsmp3/Kick1.mp3"></audio>
+    <audio id="E" src="./Drum soundsmp3/Hihat.mp3"></audio>
+    <audio id="A" src="./Drum soundsmp3/Clap.mp3"></audio>
+    <audio id="S" src="./Drum soundsmp3/Crash.mp3"></audio>
+    <audio id="D" src="./Drum soundsmp3/Rim.mp3"></audio>
+    <audio id="Z" src="./Drum soundsmp3/Percussion.mp3"></audio>
+    <audio id="X" src="./Drum soundsmp3/Shaker3.mp3"></audio>
+    <audio id="C" src="./Drum soundsmp3/Tom7.mp3"></audio>
+    <!-- ........................... -->
+
+  </main>
+  <!-- ============================= -->
+  <footer>
+    <div class="footer-box"><p>2020</p></div>
+  </footer>
+  <!-- ============================= -->
+  
+
+
+
+</body>
+</html>
